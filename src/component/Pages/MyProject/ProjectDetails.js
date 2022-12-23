@@ -6,7 +6,7 @@ const ProjectDetails = () => {
    console.log(prjectDetails);
 
     return (
-        <div className='pt-24 bg-black'>
+        <div className='pt-24 bg-gray-700 min-h-screen'>
             <h2 className='text-4xl text-white text-center'>Project Details</h2>
         </div>
     );

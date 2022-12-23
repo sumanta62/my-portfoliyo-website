@@ -8,6 +8,7 @@ import Main from "../Pages/Main/Main";
 import MyProject from "../Pages/MyProject/MyProject";
 import ProjectDetails from "../Pages/MyProject/ProjectDetails";
 import MySkill from "../Pages/MySkill/MySkill";
+import Services from "../Pages/Services/Services";
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
             {
                 path:'/mySkill',
                 element:<MySkill></MySkill>
+            },
+            {
+                path:'/services',
+                element:<Services></Services>
             },
             {
                 path:'/blog',

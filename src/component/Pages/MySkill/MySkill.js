@@ -71,7 +71,7 @@ const MySkill = () => {
                                 <hr className='w-48 m-auto' />
                                 <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 text-center mt-2'>
                                     {
-                                        expertiseSkills.map(skill =>
+                                        expertiseSkills.map(skill => 
                                             <div className='items-center py-1 px-2 overflow-hidden rounded-lg shadow-md bg-gray-800 text-gray-100 m-4 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring cursor-pointer'>
                                                 <div className='flex justify-center'>
                                                     <img src={skill?.image} alt="" className='rounded-full w-8 mr-2' />

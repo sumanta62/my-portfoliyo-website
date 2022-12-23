@@ -5,8 +5,8 @@
         "project_name": "Second hand car",
         "details": "A full-stack Second-hand car web app where you can create your user profile, log in, book some items, and pay for the reserved items. Admin has access to all of those users and can delete them if necessary. Users can add products and advertise their products.",
         "live_link": "https://second-hadlar-car.web.app/",
-        "client-side": "https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-sumanta62",
-        "server-side": "https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-sumanta62",
+        "client_side": "https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-sumanta62",
+        " server_side": "https://github.com/programming-hero-web-course-4/b612-used-products-resale- server_side-sumanta62",
         "technology": "JavaScript, React.js, Router, Firebase Authentication, Stripe, Node.js, Express, cors",
         "post_date": "20/11/2022",
         "img": "https://second-hadlar-car.web.app/static/media/img1.63f1645b7e322c5d6a9d.jpg"
@@ -16,8 +16,8 @@
         "project_name":"Dentist expert",
         "details":"A full-stack dentist expert web app where you can create your user profile, log in as a user, input some data, and update your existing data. You can delete your data and see others' data, but you can’t edit or delete their data.",
         "live_link":"https://detist-expert.firebaseapp.com/home",
-        "client-side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-sumanta62",
-        "server-side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-sumanta62",
+        "client_side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-sumanta62",
+        " server_side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale- server_side-sumanta62",
         "technology":"JavaScript, React.js, Router, Firebase Authentication, Stripe, Node.js, Express, cors",
         "post_date":"02/11/2022",
         "img":"https://detist-expert.firebaseapp.com/static/media/slide-1.8ad3b498538aa137e044.jpg"
@@ -27,19 +27,8 @@
         "project_name":"Healthful Food",
         "details":"This is a simple restaurant home page design. Here Some healthy food items are shown in the restaurant.",
         "live_link":"https://marvelous-cupcake-b0f6ec.netlify.app/",
-        "client-side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-sumanta62",
-        "server-side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-sumanta62",
-        "technology":"HTML5, CSS3, Bootstrap, JavaScript, JQuery.",
-        "post_date":"20/06/2022",
-        "img":"https://marvelous-cupcake-b0f6ec.netlify.app/img/bg-img1.png"
-    },
-    {
-        "id":"04",
-        "project_name":"Pin Genarate",
-        "details":"This is a simple restaurant home page design. Here Some healthy food items are shown in the restaurant.",
-        "live_link":"https://marvelous-cupcake-b0f6ec.netlify.app/",
-        "client-side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-sumanta62",
-        "server-side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-sumanta62",
+        "client_side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-sumanta62",
+        " server_side":"https://github.com/programming-hero-web-course-4/b612-used-products-resale- server_side-sumanta62",
         "technology":"HTML5, CSS3, Bootstrap, JavaScript, JQuery.",
         "post_date":"20/06/2022",
         "img":"https://marvelous-cupcake-b0f6ec.netlify.app/img/bg-img1.png"
