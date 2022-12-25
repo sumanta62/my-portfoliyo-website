@@ -3,7 +3,6 @@ import Project from './Project';
 import ProjectImage from './../../images/Project/pngtree-hexagon-honeycomb-banner-background-image_520586.jpg';
 
 const MyProject = () => {
-
     const [myProduct, setMyProduct] = useState([]);
 
     useEffect(() => {
@@ -11,6 +10,7 @@ const MyProject = () => {
             .then(res => res.json())
             .then(data => setMyProduct(data))
     }, [])
+
 
     return (
         <div className=" hero" style={{ backgroundImage: `url(${ProjectImage})`, minHeight: "100vh" }}>

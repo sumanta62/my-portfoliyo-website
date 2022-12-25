@@ -1,5 +1,6 @@
 import React from 'react';
-import { BsFacebook, BsLinkedin, BsPhone } from 'react-icons/bs';
+import { BsFacebook, BsLinkedin, BsGithub, BsTwitter , BsFillTelephoneInboundFill} from 'react-icons/bs';
+import {SiGmail} from 'react-icons/si';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -29,17 +30,19 @@ const Footer = () => {
                     <div className='justify-items-center md:justify-items-start'>
                         <span className="footer-title">Contuct Me</span>
                         <div className='flex gap-3'>
-                            <a href='https://web.facebook.com/S.K.Sumanta25'><BsFacebook>Facebook</BsFacebook></a>
-                            <a href="https://www.linkedin.com/in/sumanta-majumder"><BsLinkedin></BsLinkedin> </a>
+                            <a target={'_tab'} href='https://web.facebook.com/S.K.Sumanta25'><BsFacebook></BsFacebook></a>
+                            <a target={'_tab'} href="https://www.linkedin.com/in/sumanta-majumder"><BsLinkedin></BsLinkedin> </a>
+                            <a target={'_tab'} href="https://twitter.com/Sumanta225"><BsTwitter></BsTwitter> </a>
+                            <a target={'_tab'} href="https://github.com/sumanta62"><BsGithub></BsGithub> </a>
 
                         </div>
-                        <a href='/'>+880 1917123225</a>
-                        <a href='/'>sumantamajumder62@gmail.com</a>
+                       <p className='flex items-center gap-2'> <BsFillTelephoneInboundFill></BsFillTelephoneInboundFill><span> +880 1917123225</span> </p> 
+                        <p className='flex items-center gap-2'> <SiGmail></SiGmail> <span>sumantamajumder62@gmail.com</span></p>
                     </div>
                 </div>
 
                 <div className='text-center mt-10'>
-                    <p className='text-sm '>Copyright © 2022 - My Portfolio</p>
+                    <p className='text-sm '>Copyright © 2022 - Sumanta Portfoliyo</p>
                 </div>
             </footer>
         </div>

@@ -3,20 +3,12 @@
         "id": "01",
         "project_name": "Full-stack Website",
         "details": "Full stack development refers to the development of both front-end and back-end portions of web applications. Full-stack web developers have the ability to design complete web applications and websites. The front end includes everything that a client, or site viewer, can see and interact with.",
-        "live_link": "https://second-hadlar-car.web.app/",
+        "live_link": "https://second-hadlar-car.firebaseapp.com/",
         "technology": "JavaScript, React.js, Router, Firebase Authentication, Stripe, Node.js, Express, cors",
         "img": "https://www.freepnglogos.com/uploads/logo-website-png/logo-website-website-logo-png-transparent-background-background-15.png"
     },
     {
         "id": "02",
-        "project_name": "Responsive Website",
-        "details": "In responsive design, page elements reshuffle as the viewport grows or shrinks. A three-column desktop design may reshuffle to two columns for a tablet and a single column for a smartphone. Responsive design relies on proportion-based grids to rearrange content and design elements.",
-        "live_link": "https://second-hadlar-car.web.app/",
-        "technology": "JavaScript, React.js, Router, Firebase Authentication, Stripe, Node.js, Express, cors",
-        "img": "https://www.urban-vpn.com/assets/free-pc-laptop-robot.png"
-    },
-    {
-        "id": "03",
         "project_name": "Modern Website",
         "details": "Modern website design is a combination of different elements that work together to create an effective and user-friendly experience. To help narrow your focus and find the best elements for your site, we’re breaking down the most important elements of modern website design you can implement to improve your site's performance.",
         "live_link": "https://second-hadlar-car.web.app/",
@@ -24,10 +16,18 @@
         "img": "https://cdn-icons-png.flaticon.com/512/1458/1458522.png"
     },
     {
+        "id": "03",
+        "project_name": "Responsive Website",
+        "details": "In responsive design, page elements reshuffle as the viewport grows or shrinks. A three-column desktop design may reshuffle to two columns for a tablet and a single column for a smartphone. Responsive design relies on proportion-based grids to rearrange content and design elements.",
+        "live_link": "https://detist-expert.firebaseapp.com/",
+        "technology": "JavaScript, React.js, Router, Firebase Authentication, Stripe, Node.js, Express, cors",
+        "img": "https://www.urban-vpn.com/assets/free-pc-laptop-robot.png"
+    },
+    {
         "id": "04",
         "project_name": "Home Page Website",
         "details": "A home page is the primary web page that a visitor will view when they navigate to a website via a search engine, and it may also function as a landing page to attract visitors.. In some cases, the home page is a site directory, particularly when a website has multiple home pages.",
-        "live_link": "https://second-hadlar-car.web.app/",
+        "live_link": "https://marvelous-cupcake-b0f6ec.netlify.app/",
         "technology": "JavaScript, React.js, Router, Firebase Authentication, Stripe, Node.js, Express, cors",
         "img": "https://unbounce.com/wp-content/themes/unbounce2019/glossary/img/words/landing-page.png"
     }
