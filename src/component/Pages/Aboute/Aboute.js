@@ -1,6 +1,7 @@
 import React from 'react';
 import abouteImg from '../../images/Aboute/pic preview.png'
 import bgImage from '../../images/Aboute/banner.png'
+import './Aboute.css'
 
 const Aboute = () => {
     return (
@@ -19,7 +20,7 @@ const Aboute = () => {
                                     <p className="mb-2 text-sm text-justify leading-5">My web development course honed my aptitude with JavaScript, jQuery, ES6, React.js, Node.js, Express.js, MongoDB, JSON, React Bootstrap, Tailwind CSS, Bootstrap5, CSS3, and HTML5 user interfaces. I have built a large number of custom websites. I am hardworking and responsible at work. I have the ability to work together with the company team.</p>
                                     <p className=" mb-3 text-sm sm:mb-12  text-justify leading-5">I will prove myself to be an essential asset through my dedication, sincerity, and professionalism. Thank you for your time and consideration.</p>
                                     <div className="flex space-y-4 sm:items-center justify-center  sm:justify-center md:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                                        <button rel="noopener noreferrer" href="#" className="px-6 py-2 text-lg  font-semibold rounded bg-gradient-to-r from-green-400 to-blue-300 text-gray-900 transition hover:scale-105 hover:shadow-xl focus:outline-none focus:ring ">Aboute Me</button>
+                                    <button className='outline-dashed outline-2 outline-offset-2 rounded-2xl py-1 px-4 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring'><a target='/' href="https://drive.google.com/file/d/1Asqns_V1wuPRE-4EuVJekah00HPe-f_1/view?usp=sharing">My Resume</a></button>
 
                                     </div>
                                 </div>

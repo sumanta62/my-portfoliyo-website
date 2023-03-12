@@ -3,14 +3,12 @@ import Project from './Project';
 import ProjectImage from './../../images/Project/pngtree-hexagon-honeycomb-banner-background-image_520586.jpg';
 
 const MyProject = () => {
-    const [myProduct, setMyProduct] = useState([]);
-
+    const [myProject, setMyProject] = useState([]);
     useEffect(() => {
         fetch(`project.json`)
             .then(res => res.json())
-            .then(data => setMyProduct(data))
+            .then(data => setMyProject(data))
     }, [])
-
 
     return (
         <div className=" hero" style={{ backgroundImage: `url(${ProjectImage})`, minHeight: "100vh" }}>
@@ -25,7 +23,10 @@ const MyProject = () => {
                         <div className='max-w-5xl mt-8 mx-auto grid flex-cols md:grid-cols-2 lg:grid-cols-3 gap-8'>
 
                             {
-                                myProduct.map(project => <Project key={project.id} project={project} ></Project>)
+                               myProject.map((project, i) => <Project 
+                               key={project.id} 
+                               project={project} 
+                               ></Project>)
                             }
 
                         </div>

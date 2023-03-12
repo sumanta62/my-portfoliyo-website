@@ -1,9 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,  } from 'react-router-dom';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
-
 const Project = ({ project }) => {
+ 
 
     return (
         <div>
@@ -28,9 +27,11 @@ const Project = ({ project }) => {
                         <a target='new tab' href={project?.server_side} >
                             <button className='btn bg-gradient-to-r from-green-400 to-blue-300 btn-sm text-sm normal-case'>Server</button>
                         </a>
-
                     </div>
-                    <Link to={`/myProjectDetails/${project.id}`} className="flex items-center justify-center w-full p-2 font-semibold tracking-wide rounded-md bg-gradient-to-r from-green-400 to-blue-300 text-gray-900 "> Details</Link>
+                    <div >
+                        <Link to={`/myProjectDetails/${project?.id}`} 
+                            className="flex items-center justify-center w-full p-2 font-semibold tracking-wide rounded-md bg-gradient-to-r from-green-400 to-blue-300 text-gray-50 "> Details</Link>
+                    </div>
                 </div>
             </div>
         </div>

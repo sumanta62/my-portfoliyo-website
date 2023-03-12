@@ -43,8 +43,14 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/myProjectDetails/:id',
-                element:<ProjectDetails></ProjectDetails>,
-                loader:({params}) => fetch(`project.json/${params.id}`)
+                element:<ProjectDetails ></ProjectDetails>,
+                loader:({params})=> fetch(`project.json`)
+                .then(res=> res.json())
+                .then(data=> {
+                    const result= data.find(project=>project.id === params.id);
+                    return result;
+                })
+                
             },
             {
                 path:'/contuct',

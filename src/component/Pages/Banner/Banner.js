@@ -12,10 +12,10 @@ const Banner = () => {
                         <div className=" text-neutral-content h-full flex flex-col-reverse md:flex-row justify-between items-center w-11/12 sm:w-10/12 m-auto p-5">
                             <div className=" w-full text-center md:text-start">
                                <div className='w-5/6 lg:w-4/6 m-auto md:m-0'>
-                               <h1 className="mb-1 text-2xl lg:text-4xl font-bold "><span className='text-green-400'>Hi I'M</span> <br /> <span className='text-sky-300 '>SUMANTA MAJUMDER</span></h1>
+                               <h1 className="mb-1 text-2xl lg:text-4xl font-bold "><span className='text-green-400'>Hi, I'M</span> <br /> <span className='text-sky-300 '>SUMANTA MAJUMDER</span></h1>
                                 <TypeAnimation
                                     sequence={[
-                                        `I AM FRONT-END DEVELOPER`,  // Types 'One'
+                                        `I AM MERN STACK DEVELOPER`,  // Types 'One'
                                         2000, // Waits 1s
                                         'I ',  // Deletes 'One' and types 'Two'
                                         // 2000, // Waits 2s
@@ -30,7 +30,7 @@ const Banner = () => {
                                     repeat={Infinity}
                                     style={{ fontSize: '30px', lineHeight:'27px' }}
                                 />
-                                <p className='mt-6 text-sm md:text-md text-justify'>I am a front-end developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with React.js, and MongoDB. </p>
+                                <p className='mt-6 text-sm md:text-md text-justify'>I am a MERN Stack Developer.I have been working in MERN Stack development for 1.5 years. Constantly enhancing my knowledge, skills, attitude and experience, to become a responsible and challenging Web developer. </p>
                                 <div className='mt-7'>
                                     <button className='outline-dashed outline-2 outline-offset-2 rounded-2xl py-1 px-4 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring'><a target='/' href="https://drive.google.com/file/d/1Asqns_V1wuPRE-4EuVJekah00HPe-f_1/view?usp=sharing">My Resume</a></button>
                                 </div>

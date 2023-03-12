@@ -23,8 +23,8 @@ const Services = () => {
                         <div className=' mt-8 mx-auto grid flex-cols md:grid-cols-2 gap-y-16'>
 
                             {
-                                services.map(servise=>
-                                    <div className="max-w-xs md:max-w-md mx-auto p-6 rounded-md transition hover:scale-105 hover:shadow-xl focus:outline-none focus:ring border border-zinc-500 bg-gray-800">
+                                services.map((servise, i)=>
+                                    <div key={i}  className="max-w-xs md:max-w-md mx-auto p-6 rounded-md transition hover:scale-105 hover:shadow-xl focus:outline-none focus:ring border border-zinc-500 bg-gray-800">
                                         <img src={servise?.img} alt="" className=" object-cover object-center w-14  md:w-16 rounded-t-md -mt-14" />
                                         <div className="flex flex-col justify-between pt-1 space-y-4">
                                             <div className="space-y-1">

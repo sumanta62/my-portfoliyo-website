@@ -3,17 +3,17 @@ import React from 'react';
 const HedNavbar = () => {
    
     return (
-        <div className=' absolute right-20 top-0 bottom-0 z-10 p-0 m-0 flex'>
-            <div className=" container m-auto fixed flex h-full justify-between items-center font-bold text-sm">
+        <div className=' absolute right-14 top-0 bottom-0 z-10 p-0 m-0 flex'>
+            <div className=" container m-auto fixed flex h-full justify-between items-center font-bold text-sm ">
 
                 <ul
-                    className=" p-3 space-y-5 text-blue-500 "
+                    className=" space-y-5 text-blue-500 "
                 >
-                    <li className='transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring'>
+                    <li className='transition hover:scale-110  focus:outline-none focus:ring w-60 hover:right-20'>
                         <a target='new-tab'
                             href="https://web.facebook.com/S.K.Sumanta25"
                             rel="noreferrer"
-                            className="transition hover:opacity-80"
+                            className="transition hover:shadow-2xl animate-pulse"
 
                         >
                             <span className="sr-only">Facebook</span>
@@ -26,11 +26,11 @@ const HedNavbar = () => {
 
                         </a>
                     </li>
-                     <li className='transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring'>
+                     <li className='transition hover:scale-110  focus:outline-none focus:ring w-60 hover:right-20'>
                         <a target='new-tab'
                             href="https://www.linkedin.com/in/sumanta-majumder/"
                             rel="noreferrer"
-                            className="transition hover:opacity-80 "
+                            className="transition hover:shadow-2xl animate-pulse"
 
                         >
                             <span className="sr-only">Linkin</span>
@@ -42,12 +42,12 @@ const HedNavbar = () => {
                         </a>
                     </li>
 
-                     <li className='transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring'>
+                     <li className='transition hover:scale-110  focus:outline-none focus:ring w-60 hover:right-20'>
                         <a
                             href="https://twitter.com/Sumanta225"
                             rel="noreferrer"
                             target="_blank"
-                            className="transition hover:opacity-80"
+                            className="transition hover:shadow-2xl animate-pulse"
                         >
                             <span className="sr-only">Twitter</span>
 
@@ -58,12 +58,12 @@ const HedNavbar = () => {
                             </svg>
                         </a>
                     </li>
-                     <li className='transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring'>
+                     <li className='transition hover:scale-110  focus:outline-none focus:ring w-60 hover:right-20'>
                         <a
                             href="https://github.com/sumanta62"
                             rel="noreferrer"
                             target="_blank"
-                            className="transition hover:opacity-80"
+                            className="transition hover:shadow-2xl animate-pulse"
                         >
                             <span className="sr-only">GitHub</span>
 
